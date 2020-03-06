@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Jan-2020, 19:32:13
+    Author     : hp
+*/
+ul.breadcrumb {
+  float: right;
+  padding: 10px 10px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.navbar {
+  overflow: hidden;
+  background-color: powderblue;
+  font-family: Century Gothic;
+  margin: 0px 70px;
+  background-color:powderblue;
+}
+
+.navbar2{
+  overflow: hidden;
+  background-color: powderblue;
+  font-family: Arial;
+  margin: 20px 70px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+h1{
+ 
+  width: 200px;
+  text-align: center;
+  margin-left: 550px;
+  font: bold 40px Algerian;
+  padding: 10px;
+}
+h1 a{
+    color:black;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  background-color: powderblue;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.table{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    border: none;
+    line-height: 50px;
+    background-color: #b0e0e675;
+}
+body{
+    background-image: url(Bus7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width:100%;
+}
+
+
