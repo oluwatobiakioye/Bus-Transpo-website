@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Jan-2020, 14:33:34
+    Author     : hp
+*/
+/* Navbar container */
+/* Style the list */
+ul.breadcrumb {
+  float: right;
+  padding: 10px 10px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.navbar {
+  overflow: hidden;
+  background-color: powderblue;
+  font-family: Century Gothic;
+  margin: 0px 70px;
+  background-color:powderblue;
+}
+
+.navbar2{
+  overflow: hidden;
+  background-color: powderblue;
+  font-family: Arial;
+  margin: 20px 70px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+h1{
+ 
+  width: 200px;
+  text-align: center;
+  margin-left: 550px;
+  font: bold 40px Algerian;
+  padding: 10px;
+}
+h1 a{
+    color:black;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  background-color: powderblue;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.pic{
+    background-image: url(Bus3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width:100%;
+}
+
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: greenyellow ;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.table{
+  text-align: center;
+  color: white;
+  float: center;
+  width: 30%;
+  margin: auto;
+  padding: 50px 100px; 
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  
+}
+
+.page_footer{
+  clear: both;
+  text-align: center;
+}
+hr{
+  margin: 0px 70px; 
+}
+
+
+
+
